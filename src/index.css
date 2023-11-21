@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .wrong-answer {
+        @apply text-sm font-semibold text-red-600
+    }
+
+    .correct-answer {
+        @apply text-sm font-semibold text-green-600
+    }
+}
